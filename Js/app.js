@@ -1,6 +1,5 @@
 const input1 = document.getElementById('color1');
 const input2 = document.getElementById('color2');
-const h3 = document.getElementById('css');
 const linearGradingTextInput = document.getElementById('linear-gradient-content');
 const body = document.getElementById('gradient');
 const copyButton = document.getElementById('copy-button');
