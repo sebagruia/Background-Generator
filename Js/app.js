@@ -7,7 +7,7 @@ const copyButton = document.getElementById('copy-button');
 
 const setGradient = () => {
     body.setAttribute('style', `background: linear-gradient(to right, ${input1.value} , ${input2.value})`);
-    linearGradingTextInput.value = `linear-gradient(to-right, ${input1.value}, ${input2.value})`;
+    linearGradingTextInput.value = `linear-gradient(to right, ${input1.value}, ${input2.value})`;
 }
 
 const copyLinearGradingHtml = ()=>{
